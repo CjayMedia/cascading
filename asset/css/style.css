@@ -1,0 +1,149 @@
+:root{
+    --main-color: #5ABFAA;
+    --secondary-color: #f8f9fa;
+    --primary-color: #000;
+    --light-color: #7d6f80;
+}
+.btn{
+    border-radius: 1.8rem;
+    padding: .9rem 1rem;
+}
+
+#topnav{
+    background-color: var(--main-color) !important;     
+}
+.navbar{
+    background-color: var(--secondary-color)!important;
+}
+
+.navbar .navbar-brand img{
+    width: 10% !important;
+}
+.navbar .brand-text h4{
+    color: var(--main-color)!important;
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin: 0;
+}
+.navbar .navbar-brand .brand-text h4:hover{
+    color: var(--light-color)!important;
+    
+}
+.navbar .brand-text p{
+    color:var(--primary-color)!important;
+    font-size: .7rem;
+    font-weight: bold;
+    margin: 0;
+}
+.navbar .navbar-nav .nav-link{
+    color: var(--light-color)!important;
+    padding: 0 1.6rem;
+}
+.navbar .nav-link.active{
+    color: var(--main-color)!important;
+}
+.navbar .nav-link:hover{
+    color: var(--main-color)!important;
+}
+
+.navbar .navbar-nav .nav-link.btn{
+    border: 2px solid var(--primary-color)!important;
+    padding: .7rem 1.7rem;
+    border-radius: 2rem;  
+}
+
+.navbar button{
+    background: var(--main-color) !important;
+
+}
+
+
+#slider .carousel-inner .carousel-item img{
+    height: 85vh;
+    clip-path: polygon(0 0, 100% 0, 100% 33%, 51% 100%, 0 100%, 0% 100%); 
+}
+
+#slider .carousel-inner .carousel-item .carousel-caption{
+  top: 75%; 
+ text-align: end;
+ color: #000;
+ width: 80%;
+ /* right: 0; */
+ /* left: 0; */
+ 
+}
+
+#slider .carousel-inner .carousel-item .carousel-caption h3{
+    color: var(--light-color);
+    font-size: 3rem;
+    font-weight: bold;
+   
+  }
+
+  #slider .carousel-control-prev-icon, 
+  #slider .carousel-control-next-icon{    
+  display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+   background-color:var(--light-color);
+   border-radius: 50%;
+   padding: 2rem; 
+  }
+  #slider .carousel-control-prev-icon:hover, 
+  #slider .carousel-control-next-icon:hover{   
+    background-color: var(--main-color);
+  }
+
+
+  /* welcome */
+  /* welcome */
+ #welcome .container .intro h3{
+font-weight: bold;
+font-size: 3rem;
+color: var(--light-color);
+ }
+ #welcome .container .card{
+    border: none;
+ }
+ #welcome .container .card:hover{
+    box-shadow: 0 .4rem 1rem var(--light-color);
+ }
+
+ #welcome .container .card img{
+ width: 50%;
+ margin: .6rem auto;
+ transform: scale(1.2);
+ transition: all 1s ease-in-out;
+ }
+
+#welcome .container .card:hover img{
+ transform: scale(1);
+ transition: all 1s ease-in-out;
+ }
+
+ #welcome .container .card h4{
+  color: var(--main-color);
+ 
+ }
+ #welcome .container .card h4>span{
+  font-weight: bolder;
+ }
+
+ /* story */
+ /* story */
+ #story {
+    background: var(--main-color);
+    padding: 5rem 0;
+ }
+
+ #story  .card-img{
+    height: 82vh;
+ }
+
+ #story .card-img img{
+    height: 100%;
+ }
+ 
